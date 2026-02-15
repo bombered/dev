@@ -1,0 +1,6 @@
+#/usr/bin/env bash
+
+DEV_ENV=$(pwd) ./run neovim
+DEV_ENV=$(pwd) ./run dev
+DEV_ENV=$(pwd) ./run zsh
+DEV_ENV=$(pwd) ./run tmux
