@@ -72,7 +72,4 @@ copy $DEV_ENV/dev-env $HOME/.local/scripts/dev-env
 
 mkdir -p $HOME/.local/bin
 
-copy $DEV_ENV/daydream/opencode-client $HOME/.local/bin/opencode-client
-copy $DEV_ENV/daydream/opencode-server $HOME/.local/bin/opencode-server
-
 hyprctl reload
